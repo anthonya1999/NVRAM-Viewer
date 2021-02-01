@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		926D337025C7AF63002B782F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 926D336F25C7AF63002B782F /* AppDelegate.m */; };
+		926D337325C7AF63002B782F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926D337225C7AF63002B782F /* ViewController.m */; };
+		926D337525C7AF64002B782F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 926D337425C7AF64002B782F /* Assets.xcassets */; };
+		926D337825C7AF64002B782F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 926D337625C7AF64002B782F /* Main.storyboard */; };
+		926D337B25C7AF64002B782F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 926D337A25C7AF64002B782F /* main.m */; };
+		926D338725C7AFF9002B782F /* NVRAMController.m in Sources */ = {isa = PBXBuildFile; fileRef = 926D338625C7AFF9002B782F /* NVRAMController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		926D336B25C7AF63002B782F /* NVRAM Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NVRAM Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		926D336E25C7AF63002B782F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		926D336F25C7AF63002B782F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		926D337125C7AF63002B782F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		926D337225C7AF63002B782F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		926D337425C7AF64002B782F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		926D337725C7AF64002B782F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		926D337925C7AF64002B782F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926D337A25C7AF64002B782F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		926D338525C7AFF9002B782F /* NVRAMController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NVRAMController.h; sourceTree = "<group>"; };
+		926D338625C7AFF9002B782F /* NVRAMController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NVRAMController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		926D336825C7AF63002B782F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		926D336225C7AF63002B782F = {
+			isa = PBXGroup;
+			children = (
+				926D336D25C7AF63002B782F /* NVRAM Viewer */,
+				926D336C25C7AF63002B782F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		926D336C25C7AF63002B782F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				926D336B25C7AF63002B782F /* NVRAM Viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		926D336D25C7AF63002B782F /* NVRAM Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				926D336E25C7AF63002B782F /* AppDelegate.h */,
+				926D336F25C7AF63002B782F /* AppDelegate.m */,
+				926D338C25C7B028002B782F /* Classes */,
+				926D338925C7B001002B782F /* User Interface */,
+				926D338A25C7B014002B782F /* Storyboards */,
+				926D338B25C7B01D002B782F /* Extras */,
+			);
+			path = "NVRAM Viewer";
+			sourceTree = "<group>";
+		};
+		926D338925C7B001002B782F /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				926D337125C7AF63002B782F /* ViewController.h */,
+				926D337225C7AF63002B782F /* ViewController.m */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		926D338A25C7B014002B782F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				926D337625C7AF64002B782F /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		926D338B25C7B01D002B782F /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				926D337425C7AF64002B782F /* Assets.xcassets */,
+				926D337925C7AF64002B782F /* Info.plist */,
+				926D337A25C7AF64002B782F /* main.m */,
+			);
+			name = Extras;
+			sourceTree = "<group>";
+		};
+		926D338C25C7B028002B782F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				926D338525C7AFF9002B782F /* NVRAMController.h */,
+				926D338625C7AFF9002B782F /* NVRAMController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		926D336A25C7AF63002B782F /* NVRAM Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 926D337F25C7AF64002B782F /* Build configuration list for PBXNativeTarget "NVRAM Viewer" */;
+			buildPhases = (
+				926D336725C7AF63002B782F /* Sources */,
+				926D336825C7AF63002B782F /* Frameworks */,
+				926D336925C7AF63002B782F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NVRAM Viewer";
+			productName = "NVRAM Viewer";
+			productReference = 926D336B25C7AF63002B782F /* NVRAM Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		926D336325C7AF63002B782F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					926D336A25C7AF63002B782F = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 926D336625C7AF63002B782F /* Build configuration list for PBXProject "NVRAM Viewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 926D336225C7AF63002B782F;
+			productRefGroup = 926D336C25C7AF63002B782F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				926D336A25C7AF63002B782F /* NVRAM Viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		926D336925C7AF63002B782F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926D337525C7AF64002B782F /* Assets.xcassets in Resources */,
+				926D337825C7AF64002B782F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		926D336725C7AF63002B782F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				926D338725C7AFF9002B782F /* NVRAMController.m in Sources */,
+				926D337325C7AF63002B782F /* ViewController.m in Sources */,
+				926D337B25C7AF64002B782F /* main.m in Sources */,
+				926D337025C7AF63002B782F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		926D337625C7AF64002B782F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				926D337725C7AF64002B782F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		926D337D25C7AF64002B782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		926D337E25C7AF64002B782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		926D338025C7AF64002B782F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HG89295GMR;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "NVRAM Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adatech.NVRAM-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		926D338125C7AF64002B782F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HG89295GMR;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = "NVRAM Viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.adatech.NVRAM-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		926D336625C7AF63002B782F /* Build configuration list for PBXProject "NVRAM Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926D337D25C7AF64002B782F /* Debug */,
+				926D337E25C7AF64002B782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		926D337F25C7AF64002B782F /* Build configuration list for PBXNativeTarget "NVRAM Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				926D338025C7AF64002B782F /* Debug */,
+				926D338125C7AF64002B782F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 926D336325C7AF63002B782F /* Project object */;
+}
